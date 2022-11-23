@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CLR_fundo"
+    tools:context=".Comecar">
+
+    <Button
+        android:id="@+id/Btn_adicionar"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="559dp"
+        android:backgroundTint="@color/CLR_botao"
+        android:text="@string/STR_adicionar"
+        android:textColor="@color/CLR_escrever"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ETxt_nome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/ETxt_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="558dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="@string/STR_nomeJogador"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_primary99"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="423dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginBottom="128dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Txt_superior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_botao"
+            android:padding="5sp"
+            android:text="@string/STR_jogador"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/Txt_nome1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Txt_nome12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/CLR_fundo_aviso"
+            android:padding="5sp"
+            android:textAlignment="center"
+            android:textColor="@color/CLR_escrever"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn_comJogo"
+        android:layout_width="266dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginBottom="66dp"
+        android:backgroundTint="@color/CLR_botao"
+        android:text="@string/STR_Cjogo"
+        android:textColor="@color/CLR_escrever"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/STR_version"
+        android:textColor="@color/CLR_escrever"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="202dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/teste_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

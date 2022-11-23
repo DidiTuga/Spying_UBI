@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">a45842_T2</string>
+    <string name="STR_ajuda">AJUDA</string>
+    <string name="STR_Comecar">COMEÇAR</string>
+    <string name="Str_numJogador">Número de jogadores minimo: 4</string>
+    <string name="STR_adicionar">Adicionar</string>
+    <string name="STR_nomeJogador">Nome do Jogador</string>
+    <string name="STR_Cjogo">Começar Jogo</string>
+    <string name="STR_soueu">Sou eu</string>
+    <string name="STR_seguint">Seguinte</string>
+    <string name="STR_local">Local</string>
+    <string name="STR_expulsar">Expulsar</string>
+    <string name="STR_jogador">Jogadores:</string>
+    <string name="STR_version">Versão 1.1</string>
+    <string name="STR_expJogador">N. Jogador a expulsar</string>
+    <string-array name="STR_array">
+        <item>Faculdade de Ciencias da Saúde</item>
+        <item>Faculdade de Engenharias</item>
+        <item>Faculdade de Ciencias Sociais e Humanas</item>
+        <item>Faculdade de Ciencias</item>
+        <item>Biblioteca</item>
+        <item>Cantina</item>
+    </string-array>
+</resources>
