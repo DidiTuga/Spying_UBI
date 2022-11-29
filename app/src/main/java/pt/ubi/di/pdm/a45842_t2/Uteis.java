@@ -1,10 +1,7 @@
 package pt.ubi.di.pdm.a45842_t2;
 
-import android.app.ActionBar;
 import android.content.Context;
 import android.util.Log;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 public class Uteis {
